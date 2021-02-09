@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+.bg{
+    background-image: url('BG2.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 30px;
+}
+hr{
+    color: black;
+}
+.content{
+    color: blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 20px;
+    box-shadow: 5px 8px 20px black;
+}
+.headings{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.indent{
+    text-indent: 30px;
+}
+a{
+    text-decoration:none;
+    color: blanchedalmond;
+}
+a:hover{
+    color: chocolate;
+    font-size: 80%;
+}
+img:hover{
+    box-shadow: 10px 10px 20px black;
+    transition: 0.5s all ease;
+}
+
+
+
+@media screen and (max-width: 450px){
+    .bg{
+        background-attachment: fixed;
+    }
+}
